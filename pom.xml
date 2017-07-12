@@ -302,20 +302,21 @@
 	
 	<distributionManagement>
 	<!-- This is added by balu -->
-		
+		<repositories>
 		<repository>
 			<id>releases</id>
 			<name>Releases</name>
 			<url>http://18.231.83.174:8081/nexus/content/repositories/releases/</url>
+			<snapshots><enabled>true</enabled></snapshots>
 		</repository>
+		</repositories>
 		
 		
-		
-		<SnapshotRepositiry>
+		<snapshotRepositiry>
 			<id>snapshots</id>
 			<name>Snapshots</name>
 			<url>http://18.231.83.174:8081/nexus/content/repositories/snapshots/</url>
-		</SnapshotRepositiry>
+		</snapshotRepositiry>
 		
 	</distributionManagement>
 	
