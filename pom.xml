@@ -299,26 +299,24 @@
 			</plugin>
 		</plugins>
 	</build>
-	...
-	START_TAG
+	
 	<distributionManagement>
 	<!-- This is added by balu -->
-		...
+		
 		<repository>
 			<id>releases</id>
 			<name>Releases</name>
 			<url>http://18.231.83.174:8081/nexus/content/repositories/releases/</url>
 		</repository>
-		...
 		
-		...
+		
+		
 		<snapshotRepositiry>
 			<id>snapshots</id>
 			<name>Snapshots</name>
 			<url>http://18.231.83.174:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepositiry>
-		...
+		
 	</distributionManagement>
-	END_TAG
-	...
+	
 </project>
