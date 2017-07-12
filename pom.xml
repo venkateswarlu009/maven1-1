@@ -208,6 +208,7 @@
 			<url>http://repo.spring.io/milestone</url>
 			<snapshots><enabled>false</enabled></snapshots>
 		</repository>
+		
 	</repositories>
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -298,4 +299,17 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+	<!-- This is added by balu -->
+		<repository>
+			<id>releases</id>
+			<name>Releases</name>
+			<url>http://18.231.83.174:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotrepositiry>
+			<id>snapshots</id>
+			<name>Snapshots</name>
+			<url>http://18.231.83.174:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotrepositiry>
+	</distributionManagement>
 </project>
