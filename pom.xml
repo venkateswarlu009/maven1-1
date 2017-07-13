@@ -313,11 +313,11 @@
 		
 		
 		
-		<snapshotRepositiry>
+		<snapshotRepository>
 			<id>snapshots</id>
 			<name>Snapshots</name>
 			<url>http://13.126.232.155:8081/nexus/content/repositories/snapshots/</url>
-		</snapshotRepositiry>
+		</snapshotRepository>
 		
 	</distributionManagement>
 	
